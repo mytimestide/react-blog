@@ -1,9 +1,6 @@
-function App() {
-  return (
-    <div>
-      1
-    </div>
-  );
-}
+import Home from './container/Home'
+import 'normalize.css'
+
+const App = () => (<Home/>)
 
 export default App;
