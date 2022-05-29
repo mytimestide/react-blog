@@ -1,0 +1,17 @@
+.footer{
+  width: 1280px;
+  margin: 0 auto 10px;
+  height: 60px;
+  background-color: #ffffff;
+  .list{
+    list-style-type: none;
+    .item{
+      line-height: 60px;
+      .link{
+        color: cornflowerblue;
+        text-decoration: none;
+      }
+    }
+  }
+
+}
