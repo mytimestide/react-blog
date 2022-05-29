@@ -1,0 +1,45 @@
+.courses{
+  width: 1280px;
+  margin: 15px auto 15px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  .list {
+    margin: 0;
+    padding: 0 0 10px 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    .item{
+      width: 20%;
+      margin-top: 10px;
+      .img{
+        width: 240px;
+        height: 180px;
+        display: block;
+        margin: 0 auto;
+      }
+
+      .title{
+        font-size: 16px;
+        margin: 0;
+        padding: 0 10px;
+        line-height: 32px;
+        font-weight: normal;
+      }
+
+      .desc{
+        overflow: hidden;
+        font-size: 14px;
+        margin: 0;
+        padding: 0 10px;
+        line-height: 24px;
+        font-weight: normal;
+        color: #777;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+      }
+    }
+  }
+}

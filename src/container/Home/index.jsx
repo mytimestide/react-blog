@@ -1,8 +1,10 @@
-import Index from './component/Banner'
+import Banner from './component/Banner'
+import Courses from './component/Courses'
 
 const Home = () => {
     return <div>
-        <Index/>
+        <Banner/>
+        <Courses/>
     </div>
 }
 
